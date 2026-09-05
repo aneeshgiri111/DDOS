@@ -44,5 +44,13 @@ $stream.Close()
 
  
 
+The purpose is to determine how the application behaves under controlled load, rather than to make a service unavailable.
 
+⚖️ Legal & Ethical Notice
+
+This project is intended for education, defensive security testing, and authorized performance testing only.
+
+Never test a website, server, API, or network that you do not own or have explicit permission to test.
+
+Unauthorized denial-of-service testing can cause real service disruption and may have legal consequences.
 
