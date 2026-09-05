@@ -18,14 +18,15 @@ Open Windows PowerShell
 
 mkdir bot
 2. Enter the folder:
-
 cd bot
+
 3. Create the Python file:
 
 notepad  multi.py
+and save the multi.py file 
 
 in same folder create a file as p.bin
-# 10 MB of x's
+
 $bytes = New-Object byte[] (10MB)
 $stream = [System.IO.File]::OpenWrite("$PWD\p.bin")
 $stream.Write($bytes, 0, $bytes.Length)
