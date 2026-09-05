@@ -33,7 +33,7 @@ $stream.Close()
 
  for single website pentesting
  
- python  multi.py https://A https://B --workers 4 --cache-buster
+ python  multi.py https://A --workers 4 --cache-buster
  
  for multiple website and more aggressive
  
