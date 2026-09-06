@@ -101,30 +101,6 @@ python swarm.py https://A --profile burst --bots 1000 --duration 600
 python swarm.py https://A https://B --profile burst --bots 750 --duration 120 --json results.json --workers 8
 ```
 
-
-
-## 📊 Example Use Cases
-
-**Single website with moderate load:**
-
-```powershell
-python swarm.py https://example.com --profile sustained --workers 4
-```
-
-**Single website with aggressive burst:**
-
-```powershell
-python swarm.py https://example.com --profile burst --workers 16 --max-reqs 200000
-```
-
-**Multiple websites with burst profile:**
-
-```powershell
-python swarm.py https://site1.com https://site2.com --profile burst --workers 8
-```
-
-
-
 ## 🎯 Purpose
 
 The purpose is to determine how the application behaves under controlled load, rather than to make a service unavailable.
